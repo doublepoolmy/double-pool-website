@@ -10,3 +10,29 @@
 .footer{background:#061a29;color:#fff;padding:35px 7vw 25px}.footer-top{display:flex;align-items:center;justify-content:space-between;padding-bottom:30px;border-bottom:1px solid #ffffff25}.footer-top>p{font-size:9px;letter-spacing:2px;color:#9eb7bd}.back-top{font-size:9px;letter-spacing:1.5px;color:#b9cbce}.footer-bottom{display:flex;justify-content:space-between;padding-top:22px;color:#82979d;font-size:9px;letter-spacing:1px}
 @media(max-width:850px){.site-header{padding:0 6vw}.menu-toggle{display:block}.nav{display:none;position:absolute;top:81px;left:0;right:0;background:#071b2b;padding:25px 7vw;flex-direction:column;align-items:flex-start;gap:22px}.nav.open{display:flex}.hero{padding-left:8vw;padding-right:8vw}.intro-main,.contact{grid-template-columns:1fr;gap:30px}.section-wrap{padding:85px 7vw}.service-grid{grid-template-columns:repeat(2,1fr)}.feature{grid-template-columns:1fr}.feature-photo{min-height:380px}.feature-content{padding:75px 9vw}.project-grid{grid-template-columns:1fr 1fr}.project-large{grid-column:span 2}.project-large .project-photo{height:330px}.project-photo{height:260px}.closing{padding:75px 8vw}.section-heading{align-items:flex-start;flex-direction:column}.intro-stats{margin-top:50px}}
 @media(max-width:520px){.hero{min-height:700px;height:90vh}.hero h1{letter-spacing:-2.5px}.hero-bottom{left:7vw;right:7vw;font-size:8px}.scroll-cue{display:none}.hero-index{right:7vw;bottom:75px}.intro-stats{grid-template-columns:1fr;gap:18px}.service-grid{grid-template-columns:1fr}.service-card{min-height:230px}.project-grid{grid-template-columns:1fr}.project-large{grid-column:auto}.project-large .project-photo,.project-photo{height:260px}.footer-top{align-items:flex-start;gap:20px;flex-wrap:wrap}.footer-top>p{order:3;width:100%}.footer-bottom{gap:15px;flex-direction:column}.section-wrap{padding:70px 7vw}.feature-photo{min-height:290px}}
+.whatsapp-float {
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+  z-index: 50;
+  padding: 14px 19px;
+  border-radius: 40px;
+  background: #20bd68;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  box-shadow: 0 8px 28px #001b2340;
+  text-decoration: none;
+}
+
+.whatsapp-float:hover {
+  background: #159d55;
+}
+
+@media (max-width: 520px) {
+  .whatsapp-float {
+    right: 15px;
+    bottom: 15px;
+  }
+}

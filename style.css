@@ -61,3 +61,31 @@
   background: #1da851;
   transform: scale(1.05);
 }
+.whatsapp-float {
+  width: auto;
+  height: 64px;
+  padding: 0 24px 0 0;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 14px;
+  background: #ffffff;
+  color: #20bd68;
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 1px;
+  text-decoration: none;
+  box-shadow: 0 8px 28px #001b2430;
+}
+
+.whatsapp-float svg {
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+}
+
+.whatsapp-float:hover {
+  background: #f5fff8;
+  transform: translateY(-2px);
+}

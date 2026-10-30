@@ -153,3 +153,17 @@
   width: 42px;
   height: 42px;
 }
+.brand-logo {
+  height: 55px;
+  width: auto;
+  max-width: 190px;
+  object-fit: contain;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .brand-logo {
+    height: 45px;
+    max-width: 150px;
+  }
+}

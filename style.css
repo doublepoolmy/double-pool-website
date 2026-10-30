@@ -154,17 +154,21 @@
   height: 42px;
 }
 .brand-logo {
-  height: 55px;
-  width: auto;
-  max-width: 190px;
-  object-fit: contain;
   display: block;
+  height: 35px;
+  width: auto;
+  max-width: 120px;
+  object-fit: contain;
+}
+
+.site-header .brand {
+  display: flex;
+  align-items: center;
 }
 
 @media (max-width: 768px) {
   .brand-logo {
-    height: 45px;
-    max-width: 150px;
+    height: 30px;
+    max-width: 100px;
   }
 }
-

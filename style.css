@@ -64,4 +64,5 @@
 .whatsapp-float:hover {
   background: #f5fff8;
   transform: translateY(-2px);
+ flex-direction: row-reverse;
 }

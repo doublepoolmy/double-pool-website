@@ -124,9 +124,10 @@
   height: 52px;
 }
 
-.whatsapp-float:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 12px 35px rgba(0, 40, 30, 0.2);
+.whatsapp-float {
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  padding-left: 24px;
 }
 
 .whatsapp-float:hover .whatsapp-circle {
@@ -143,23 +144,12 @@
     font-size: 14px;
   }
 
- .whatsapp-circle {
-  position: absolute;
-  right: -8px;
-  top: 50%;
-  transform: translateY(-50%);
+.whatsapp-circle {
   width: 70px;
   height: 70px;
-  border-radius: 50%;
-  background: #00bd50;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 2;
 }
 
 .whatsapp-circle svg {
-  display: block;
-  width: 30px;
-  height: 30px;
+  width: 42px;
+  height: 42px;
 }

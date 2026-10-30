@@ -155,7 +155,7 @@
 }
 .brand-logo {
   display: block;
-  height: 25px;
+  height: 10px;
   width: auto;
   max-width: 90px;
   object-fit: contain;
@@ -168,7 +168,7 @@
 
 @media (max-width: 768px) {
   .brand-logo {
-    height: 30px;
+    height: 40px;
     max-width: 100px;
   }
 }
